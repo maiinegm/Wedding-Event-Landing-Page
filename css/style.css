@@ -1,0 +1,298 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/*-------GENERAL CLASSES-------*/
+.great-vibes-font {
+  font-family: "Great Vibes", cursive;
+}
+.Montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+.Montserrat-Subrayada {
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Great Vibes", cursive;
+  color: #c6a246;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+h4 {
+  color: #5c5c5c;
+  font-size: 20px;
+}
+a {
+  z-index: 100;
+}
+/*--------HOME SECTION-------*/
+.shadow {
+  box-shadow: 0px 10px 26px -14px rgb(0 0 0 / 15%);
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 10% !important;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.navbar-brand span {
+  font-weight: 800;
+  color: #a4bbb6;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: black !important;
+}
+.active {
+  color: #c6a246 !important;
+}
+.nav-q {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+.btn-outline-success {
+  color: #a4bbb6;
+  border-color: #a4bbb6;
+}
+.btn-outline-success:hover {
+  background-color: #a4bbb6;
+  border-color: #a4bbb6;
+}
+#home {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 91%;
+}
+h2 {
+  font-size: 20px;
+}
+h1 {
+  font-size: 100px;
+  margin: 70px 0;
+}
+#home p {
+  font-size: 18px;
+}
+#home span {
+  font-size: 18px;
+  color: #f3e0ad;
+}
+/*--------ABOUT SECTION-------*/
+#about p {
+  line-height: 30px;
+}
+#about img {
+  width: 70%;
+}
+/*--------COUNTDOWN SECTION-------*/
+.coundown {
+  background: #ececec;
+}
+.coundown h4 {
+  padding-bottom: 30px;
+}
+.coundown-box {
+  background: #dfdedb;
+  padding: 20px 60px;
+}
+.coundown-box span {
+  color: #000;
+  font-size: 50px;
+}
+
+/*--------GUESTS SECTION-------*/
+#guests img {
+  width: 65%;
+}
+/*--------TIMELINE SECTION-------*/
+#timeline p {
+  padding: 25px;
+  color: rgb(70, 70, 70);
+  background: #f1e6c8;
+  margin: 0;
+  cursor: pointer;
+}
+#timeline .color {
+  background-color: #e7dcc0;
+}
+.accordionBody p {
+  background: #fcf5e4 !important;
+}
+.accordionBody {
+  overflow: hidden;
+  height: 0px;
+  transition: height 0.6s;
+}
+.accordionActive {
+  height: 146px;
+}
+/*--------RSVP SECTION-------*/
+#rsvp {
+  background-image: url(../img/card-bg.jpg);
+  padding: 50px 0;
+}
+#rsvp .form {
+  padding: 0 40px;
+  padding-bottom: 60px;
+  background: #fff;
+}
+#rsvp input {
+  background-color: #ececec;
+  margin-bottom: 20px;
+}
+textarea {
+  background-color: #ececec !important;
+}
+#rsvp span {
+  color: rgb(148, 8, 8);
+}
+#rsvp .btn {
+  background-color: #d8bf7f;
+  border-color: #d8bf7f;
+}
+#rsvp .btn:hover {
+  background-color: #c6a246;
+  border-color: #c6a246;
+}
+/*--------LOCATION SECTION-------*/
+#location span {
+  color: #c6a246;
+  font-weight: 600;
+}
+/*--------FOOTER SECTION-------*/
+footer {
+  background: #ececec;
+}
+footer p {
+  margin: 5px;
+  font-weight: 500;
+}
+/*-----to top button-----*/
+#toTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border: none;
+  display: none;
+  padding: 12px 16px;
+  font-size: 20px;
+  background-color: #c6a246;
+  color: #f8f9fa;
+}
+/*-----help button-----*/
+#help {
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  border: none;
+  padding: 12px 15px;
+  background-color: #a4bbb6;
+  color: #fff;
+  overflow: hidden;
+  transition: left 1s;
+}
+#helpMsg {
+  position: fixed;
+  top: 80px;
+  left: -292px;
+  background-color: #e6ebea;
+  color: #000;
+  width: 292px;
+  height: 48px;
+  overflow: hidden;
+  transition: left 1s;
+}
+
+/*--------MEDIA QUERY-------*/
+@media only screen and (max-width: 700px) {
+  /*--------HOME SECTION-------*/
+  .navbar {
+    padding: 8px 0px !important;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 60px;
+    margin: 50px 0;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #home p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  #home span {
+    font-size: 16px;
+    color: #f3e0ad;
+  }
+  /*--------ABOUT SECTION-------*/
+  #about p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  #about img {
+    width: 60%;
+    margin: 20px;
+  }
+  /*--------COUNTDOWN SECTION-------*/
+  .coundown-box {
+    background: #dfdedb;
+    padding: 10px 20px;
+  }
+  .coundown-box span {
+    color: #000;
+    font-size: 20px;
+  }
+  #guests {
+    margin: 0 10px;
+  }
+  /*--------FIXED BUTTON-------*/
+  #helpMsg,
+  #help {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+  /*--------HOME SECTION-------*/
+  h2 {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 60px;
+    margin: 40px 0;
+  }
+  /*--------ABOUT SECTION-------*/
+  #about p {
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  #about img {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  /*--------FIXED BUTTON-------*/
+  #helpMsg,
+  #help {
+    display: none;
+  }
+}
